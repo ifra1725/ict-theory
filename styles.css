@@ -1,4 +1,4 @@
-/* Reset some default styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +6,7 @@
 }
 
 html, body {
-    height: 100%; /* Ensure the body takes the full height */
+    height: 100%; 
 }
 
 body {
@@ -16,11 +16,11 @@ body {
     padding: 0;
     line-height: 1.6;
     color: #333;
-    background-image: url(img/ba.avif); /* Add the background image */
-    background-size: cover; /* Ensure the image covers the entire background */
-    background-position: center; /* Center the background image */
+    background-image: url(img/ba.avif); 
+    background-size: cover; 
+    background-position: center; 
     display: flex;
-    flex-direction: column; /* Stack children vertically */
+    flex-direction: column; 
 }
 
 header {
@@ -39,7 +39,7 @@ nav {
 }
 
 nav ul {
-    list-style-type: none; /* Changed to none for a cleaner look */
+    list-style-type: none; 
     padding: 0;
 }
 
@@ -60,18 +60,18 @@ nav ul li a:hover {
 .logo {
     display: block;
     margin: 20px auto;
-    max-width: 150px; /* Adjust the size of the logo */
+    max-width: 150px; /* size of the logo */
 }
 
 main {
     padding: 20px;
     color: white;
     text-align: center;
-    flex: 1; /* Allow main to grow and take available space */
+    flex: 1; 
 }
 
 h2 {
-    margin: 20px 0; /* Add margin for better spacing */
+    margin: 20px 0;
     border-style: double;
     border-color: black;
 }
@@ -90,11 +90,11 @@ footer {
 
 /* Project Card Styles */
 .project-card {
-    background: rgba(85, 82, 82, 0.8); /* Light background for contrast */
-    border-radius: 12px; /* Rounded corners */
+    background: rgba(85, 82, 82, 0.8); 
+    border-radius: 12px; 
     padding: 15px;
-    margin: 15px 0; /* Space between project cards */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    margin: 15px 0; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); 
 }
 
 /* Call to Action Button */
@@ -103,9 +103,9 @@ footer {
     color: white;
     padding: 10px 20px;
     border: none;
-    border-radius: 6px; /* Slightly rounded corners for the button */
-    text-decoration: none; /* Remove underline from link */
-    display: inline-block; /* Make it behave like a button */
+    border-radius: 6px;
+    text-decoration: none; 
+    display: inline-block; 
 }
 
 .cta-button:hover {
@@ -118,7 +118,7 @@ form {
     margin: 20px auto;
     background: black;
     padding: 20px;
-    border-radius: 12px; /* Increased border radius for form */
+    border-radius: 12px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -132,7 +132,7 @@ form input, form textarea {
     padding: 10px;
     margin-bottom: 10px;
     border: 2px solid #ccc;
-    border-radius: 8px; /* Rounded corners for input and textarea */
+    border-radius: 8px; 
 }
 
 form button {
@@ -140,7 +140,7 @@ form button {
     color: white;
     border: none;
     padding: 10px 15px;
-    border-radius: 6px; /* Slightly rounded corners for the button */
+    border-radius: 6px; 
     cursor: pointer;
 }
 
